@@ -1,18 +1,21 @@
+# Convert Methods in Array in Java Script into Python
+
 strings = ['a','b','c','d']
 # 4*4 = 16 bytes of storage is used
 
 print(strings[2])
 
-#push  
+# push  
 strings.append('e')      # O(1)
-#pop  
+
+# pop: remove the last item
 strings.pop() 
 strings.pop()            # O(1)
 
-#addfirstelement 
-strings.insert(0,'x')    #O(n)
+# Add first element 
+strings.insert(0,'x')    # O(n)
 
-#splice
+# splice: intert an element in a position
 strings.insert(2,'alien')   #O(n)
 
 print(strings)
